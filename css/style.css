@@ -82,17 +82,11 @@
   
   /* # Main & sections */
  
-.business{
-    min-height: 700px;
-    background-color: aqua;
-} 
+  section{
+    margin-top: 30px;
+  }
 
-.col{
-    width: calc(100% / 3);
-    height: 400px; 
 
-}
-   
 .team{
     min-height: 400px;
     background-color: azure;
@@ -101,13 +95,30 @@
 .flex > .small-col {
     flex-basis: 40%;
     background-color: rgb(175, 68, 86);
-  }
-  
-  .flex > .large-col {
+}
+
+.flex > .large-col {
     flex-basis: 60%;
     background-color: dodgerblue;
-  }
-  
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap; 
+    
+    
+}
+
+.col{
+    width: calc(100% / 3);
+    height: 400px; 
+
+}
+
+.col-bottom{
+    width: calc(100% / 2);
+    height: 200px;
+}
   
   /* # Footer */
   
