@@ -35,7 +35,7 @@
   
   /*buttons*/
   button{
-    padding: 5px 50px; 
+    padding: 10px 50px; 
     border: none;
     margin: 20px 0px;
     
@@ -174,7 +174,9 @@
     gap: 30px;
 }
     /* subscriptio*/
-
+.business{
+    margin-bottom: 40px;
+}
 .circle{
     width: 20px;
     height: 20px;
@@ -256,19 +258,41 @@ li > i{
 }
 
 
+ /*enterprise info*/
+
+.enterprise-info{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+} 
+
+.enterprise-info > h2{
+    margin-bottom: 30px;
+}
+.enterprise-info > h4{
+    margin-bottom: 40px;
+}
+
+.small-col > button{
+    margin-left: 90px;
+}
+
+
  /*resto*/
 .team{
-    min-height: 400px;
-    background-color: azure;
+    min-height: 200px;
+
 }
 
 .flex > .small-col {
-    flex-basis: 40%;
+   
+    width: 40%;
     background-color: rgb(175, 68, 86);
 }
 
-.flex > .large-col {
-    flex-basis: 60%;
+.flex > .large-col { 
+    
+    width: 60%;
     background-color: dodgerblue;
 }
 
