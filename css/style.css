@@ -13,7 +13,7 @@
   /* Utils */
   
   .container {
-    max-width: 70%px;
+    max-width: 70%;
     margin: 0 auto;
   }
   
@@ -23,9 +23,7 @@
     display: flex;
   }
   
-  .flex.row-reverse {
-    flex-direction: row-reverse;
-  }
+
   
   .debug .border {
     border: 2px dashed black;
@@ -84,8 +82,31 @@
   
   /* # Main & sections */
  
+.business{
+    min-height: 700px;
+    background-color: aqua;
+} 
 
+.col{
+    width: calc(100% / 3);
+    height: 400px; 
+
+}
    
+.team{
+    min-height: 400px;
+    background-color: azure;
+}
+
+.flex > .small-col {
+    flex-basis: 40%;
+    background-color: rgb(175, 68, 86);
+  }
+  
+  .flex > .large-col {
+    flex-basis: 60%;
+    background-color: dodgerblue;
+  }
   
   
   /* # Footer */
