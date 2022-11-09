@@ -20,13 +20,21 @@
     list-style-type: none;
   }
 
+  h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
   
   /*buttons*/
   button{
     padding: 5px 50px; 
-    color: #fff;
-    background-color: #0061FF; 
     border: none;
+    margin: 20px 0;
+    
+    color: #fff;
+    background-color: #0061FF;
+    
+    cursor: pointer;
   }  
 
   .login{
@@ -56,7 +64,7 @@
  
   /*header*/
  
-  
+
   /* # Navbar */
   
   .navbar {
@@ -66,11 +74,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+    background-color: #fff;
 
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
+
   }
   
   .navbar > * {
@@ -116,9 +127,27 @@
   }
   
   .jumbotron .content {
-    width: 80%;
+    width: 80%; 
+    height: 400px;
     
-    background-color: rgb(233, 27, 233);
+   
+  }
+
+  .jumbo-col-smal{
+    width: 30%;
+  }
+
+  .jumbo-col-big{
+    width: 70%;
+  }
+
+  .site-img{
+    max-width: 100%;
+  }
+
+  .fa-arrow-down{
+    font-size: 35px;
+    margin-top: 58px;
   }
   
   /* # Main & sections */
