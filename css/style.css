@@ -37,7 +37,7 @@
   button{
     padding: 5px 50px; 
     border: none;
-    margin: 20px 0;
+    margin: 20px 0px;
     
     color: #fff;
     background-color: #0061FF;
@@ -177,8 +177,10 @@
 .subscription{
     border: 1px solid black;
 }
-
-
+ 
+.paragraph-title{
+    margin-bottom: 15px;
+}
 
 .subscription-info{
     height: 30px;
@@ -194,10 +196,42 @@
 }
 
 li{
-    margin-top: 10px;
+    margin-top: 30px;
 }
 li > i{
     margin-right: 8px;
+}
+
+.buy{
+    margin-top: 40px;
+    margin-left: 10px;
+    
+}
+
+.border-solid{
+    position: relative;
+    height: 1px;
+    margin: 30px 0;
+    border-bottom: 1px solid black;
+}
+
+.smal-border{
+    border: 2px solid #fff;
+    width: 10px;
+    height: 5px;
+}
+
+.big-border{
+    border: 2px solid #fff;
+    height: 5px;
+    width: 180px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.fa-check{
+    color: #2667FF;
 }
 
 
