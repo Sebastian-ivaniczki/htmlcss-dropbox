@@ -277,7 +277,26 @@ li > i{
     margin-left: 90px;
 }
 
+.partner{
+    width: 100%;
+    display: block;
+}
 
+.dropbox-partner{
+    margin: 45px 30px;
+}
+
+.dropbox-partner > p{
+    margin: 20px 0;
+} 
+
+.find-partner{
+    background-color: #fff;
+    color: black;
+    border: 2px solid black; 
+    padding: 5px;
+    font-size: 17px;
+}
  /*resto*/
 .team{
     min-height: 200px;
@@ -287,13 +306,13 @@ li > i{
 .flex > .small-col {
    
     width: 40%;
-    background-color: rgb(175, 68, 86);
+   
 }
 
 .flex > .large-col { 
     
     width: 60%;
-    background-color: dodgerblue;
+    
 }
 
 .row{
