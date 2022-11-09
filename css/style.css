@@ -8,8 +8,32 @@
   /* Generics */
   body {
     font-family: sans-serif;
+    margin-top: 60px;
   }
   
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  ul{
+    list-style-type: none;
+  }
+
+  
+  /*buttons*/
+  button{
+    padding: 5px 50px; 
+    color: #fff;
+    background-color: #0061FF; 
+    border: none;
+  }  
+
+  .login{
+    padding: 5px ;
+  }
+
+
   /* Utils */
   
   .container {
@@ -36,28 +60,45 @@
   /* # Navbar */
   
   .navbar {
-    height: 80px;
+    height: 60px;
     width: 100%;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
   }
   
   .navbar > * {
     padding: 10px;
-    flex-basis: 20%;
-   background-color: goldenrod;
+    width: calc(100% / 2);
+   
   }
   
+  .logo{
+    max-height: 18px;
+  }
+
   .navbar-menu {
     flex-grow: 1;
+    
     text-align: center;
+
   }
   
+  .nav-link{
+    margin: 0 15px; 
+    
+  }
 
   .navbar-actions {
-    text-align: right; 
+    display: flex;
+    justify-content: end; 
+    align-items: center;
     
   }
   
