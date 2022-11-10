@@ -404,9 +404,9 @@ li > i{
   }
 
   .horizontal-rule{
-    padding-top:40px;
-    margin: 2px solid black ;
-    height: 2px;
+    margin: 40px 0px;
+    border-top: 1px solid black ;
+   
     width: 20%;
   }
 
@@ -428,7 +428,15 @@ li > i{
   color: black;
   background-color: white;
 }
-  
+  /* comon questions */
+
+  .questions{
+    border-top: 1px solid black;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+
   /* # Footer */
   
   footer {
