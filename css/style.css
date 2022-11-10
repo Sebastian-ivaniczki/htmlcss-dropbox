@@ -96,6 +96,7 @@
   .container-m0{
     max-width: 70%;
     margin: 0 auto;
+    padding-top: 50px;
   }
   
 .font-style{
@@ -113,6 +114,11 @@
 .mb-30{
   margin-bottom: 30px;
 }
+.m-height{
+  min-height: 200px;
+
+}
+
   
   .debug .border {
     border: 2px dashed black;
@@ -339,10 +345,6 @@ li > i{
     font-size: 17px;
 }
  /*resto*/
-.team{
-    min-height: 200px;
-
-}
 
 .flex > .small-col {
    
@@ -417,6 +419,14 @@ li > i{
     justify-content: center;
 
     
+}
+
+/* free dropbox buisness trial */
+
+.try-dropbox-buisness{
+  margin: 0;
+  color: black;
+  background-color: white;
 }
   
   /* # Footer */
