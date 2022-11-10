@@ -54,7 +54,7 @@
   
   .container {
     max-width: 70%;
-    margin: 0 auto;
+    margin: 100px auto;
   }
   
 .font-style{
@@ -69,7 +69,9 @@
     display: flex;
   }
   
-
+.mb-30{
+  margin-bottom: 30px;
+}
   
   .debug .border {
     border: 2px dashed black;
@@ -95,7 +97,7 @@
     top: 0;
     right: 0;
     left: 0;
-
+    z-index: 1;
   }
   
   .navbar > * {
@@ -131,7 +133,7 @@
   
   .jumbotron {
     padding: 50px;
-    height: 500px;
+    height: 560px;
     margin-bottom: 50px;
     background-color: #B4D0E7;
     
@@ -161,7 +163,7 @@
 
   .fa-arrow-down{
     font-size: 35px;
-    margin-top: 58px;
+    margin-top: 45px;
   }
   
   /* # Main & sections */
@@ -314,6 +316,15 @@ li > i{
     width: 60%;
     
 }
+/* Dropbox-buisiness info*/
+
+.business{
+  padding: 0 20px;
+}
+
+.col > img{
+  max-width: 100%;
+}
 
 .row{
     display: flex;
@@ -327,6 +338,9 @@ li > i{
     min-height: 400px; 
 
 }
+
+
+
 
 .col-bottom{
     width: calc(100% / 2);
