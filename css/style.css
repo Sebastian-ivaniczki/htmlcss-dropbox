@@ -52,9 +52,50 @@
 
   /* Utils */
   
+  .bg-lightgreen{
+    background-color: #A2D39B;
+  }
+
+  .bg-darkred{
+    background-color: #61082B;
+  }
+
+  .bg-lightblue{
+    background-color: #0093CE;
+  }
+
+  .bg-lightred{
+    background-color: #FF1C1C;
+  }
+
+  .bg_lightgrey{
+    background-color: #F5F5F5;
+  }
+
+  .bg-red{
+    background-color: #D5001F;
+  }
+
+  .bg-azure{
+    background-color: #B4D0E7;
+  }
+
+  .bg-darkblue{
+    background-color: #0D2481;
+  }
+
+  .bg-yelow{
+    background-color: #FFD830;
+  }
+
   .container {
     max-width: 70%;
     margin: 100px auto;
+  }
+
+  .container-m0{
+    max-width: 70%;
+    margin: 0 auto;
   }
   
 .font-style{
@@ -168,9 +209,7 @@
   
   /* # Main & sections */
  
-  section{
-    margin-top: 200px;
-  }
+ 
 
 .business-info{
     gap: 30px;
@@ -339,12 +378,45 @@ li > i{
 
 }
 
+/* Dropbox clients info */
 
+#dropbox-clients-title{
+  font-size: 45px;
+  margin-bottom: 50px;
+}
+
+
+
+.clients-info > img{
+  max-width: 80%;
+  text-align: center;
+}
+  .clients-info{
+    display: inline-block;
+    max-width: 80%;
+    text-align: center;
+  }
+
+  .design-client-info{
+    margin: 30px;
+  }
+
+  .horizontal-rule{
+    padding-top:40px;
+    margin: 2px solid black ;
+    height: 2px;
+    width: 20%;
+  }
 
 
 .col-bottom{
     width: calc(100% / 2);
-    height: 200px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
 }
   
   /* # Footer */
