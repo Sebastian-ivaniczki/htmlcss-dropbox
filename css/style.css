@@ -265,7 +265,7 @@
 
 /* subscriptio */
 .subscription{
-    border: 1px solid black;
+    border: 1px solid #D4D4D7;
 }
  
 .paragraph-title{
@@ -278,7 +278,7 @@
 
 .subscription-info{
     height: 30px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #D4D4D7;
     
     text-align: center;
     line-height: 30px;
@@ -475,4 +475,10 @@ li > i{
     width: 20%;
   }
   
- 
+ .footer-bottom{
+  margin: 0 auto;
+  width: 80%;
+  
+  color: rgb(130,145,151); 
+  
+ }
