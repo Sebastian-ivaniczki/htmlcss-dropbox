@@ -46,9 +46,13 @@
     display: block;
     color: #fff;
     background-color: #0061FF;
-    
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
     cursor: pointer;
   }  
+
+  button:hover{
+    box-shadow:  inset 0 0 20px rgba(194, 193, 193, 0.5);
+  }
 
   .buy{
     margin-top: 40px;
@@ -411,27 +415,30 @@ li > i{
 }
   .clients-info{
     display: inline-block;
-    max-width: 80%;
+    max-width: 85%;
     text-align: center;
   }
 
   .design-client-info{
     margin: 30px;
   }
-
-
-
-
-.col-bottom{
+  
+  
+  
+  
+  .col-bottom{
     width: calc(100% / 2);
     height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
-
     
-}
-
+    border: 10px solid transparent;
+  }
+  
+  .col-bottom:hover{
+    border: 10px solid rgba(255, 255, 255, 0.5);
+  }
 /* free dropbox buisness trial */
 
 
