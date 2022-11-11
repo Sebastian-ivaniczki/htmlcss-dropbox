@@ -449,8 +449,17 @@ li > i{
     padding-top: 25px;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
   }
 
+  .reply{
+    padding-top: 20px;
+    display: none;
+  }
+
+  li:hover .reply{
+    display: block;
+  }
   /* # Footer */
   
   footer {
